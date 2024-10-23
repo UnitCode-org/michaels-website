@@ -1,16 +1,6 @@
 import type { Metadata } from 'next';
-import { Inter, Montserrat } from 'next/font/google';
 import './globals.css';
-
-const montserrat = Montserrat({
-  subsets: ['latin'],
-  display: 'swap',
-});
-
-export const inter = Inter({
-  subsets: ['latin'],
-  display: 'swap',
-});
+import { montserrat } from './fonts';
 
 export const metadata: Metadata = {
   title: 'Michael Healy',

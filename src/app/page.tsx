@@ -1,8 +1,8 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import { inter } from './layout';
 import InfoCard1 from './_components/info-card-1';
 import InfoCard2 from './_components/info-card-2';
+import { inter } from './fonts';
 
 export default function Home() {
   return (
