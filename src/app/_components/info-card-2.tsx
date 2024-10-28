@@ -1,5 +1,6 @@
 'use client';
 
+import { TextFadeInBottom } from '@/components/TextFadeInBottom';
 import { NextFont } from 'next/dist/compiled/@next/font';
 import React from 'react';
 
@@ -23,7 +24,7 @@ function InfoCard2({ inter }: { inter: NextFont }) {
             (clicked ? ' opacity-0' : '')
           }
         >
-          Building Useful & Successful Businesses
+          <TextFadeInBottom y={100} staggerChildren={0.1} onScroll text='Building Useful & Successful Businesses' />
         </h2>
         <p
           className={
