@@ -136,8 +136,13 @@ export default function Home() {
             <Image src='/michael-healy.webp' alt='Michael Healy' fill className='object-cover' priority />
           </div>
         </div>
-        <div className='grid grid-cols-1 md:grid-cols-2 gap-8'>
-          <InfoCard1 inter={inter} />
+        <div className='grid grid-cols-1 md:grid-cols-5 gap-8'>
+          <div className='grid grid-cols-1 md:grid-cols-5 gap-8 md:col-span-3'>
+            <div className='md:col-span-2 relative rounded-3xl overflow-clip h-[24rem] md:h-[28rem]'>
+              <Image src='/michael.webp' alt='Michael Healy' fill className='object-cover' priority />
+            </div>
+            <InfoCard1 inter={inter} />
+          </div>
           <InfoCard2 inter={inter} />
         </div>
       </main>

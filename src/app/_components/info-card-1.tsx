@@ -9,7 +9,7 @@ function InfoCard1({ inter }: { inter: NextFont }) {
 
   return (
     <div
-      className='rounded-3xl overflow-clip h-[24rem] md:h-[28rem] transition duration-1000 group card-gradient-1'
+      className='rounded-3xl overflow-clip h-[24rem] md:h-[28rem] transition duration-1000 group card-gradient-1 md:col-span-3'
       onClick={() => setClicked(!clicked)}
     >
       <div
