@@ -100,16 +100,6 @@ export default function Home() {
                   </FadeIn>
                   <FadeIn duration={2}>
                     <Link
-                      href='https://www.youtube.com/@michaelhealyco'
-                      target='_blank'
-                      className='rounded-full bg-background h-9 w-9 md:h-12 md:w-12 flex items-center justify-center hover:bg-gray-100 transition'
-                    >
-                      <Image src='/youtube.svg' alt='YouTube' width={28} height={28} className='block md:hidden' />
-                      <Image src='/youtube.svg' alt='YouTube' width={32} height={32} className='hidden md:block' />
-                    </Link>
-                  </FadeIn>
-                  <FadeIn duration={2}>
-                    <Link
                       href='https://www.threads.net/@michaelhealyco'
                       target='_blank'
                       className='rounded-full bg-background h-9 w-9 md:h-12 md:w-12 flex items-center justify-center hover:bg-gray-100 transition'
