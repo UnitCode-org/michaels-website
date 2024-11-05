@@ -34,7 +34,7 @@ export default function Home() {
               <div className='flex flex-col md:flex-row gap-6'>
                 <FadeIn duration={2}>
                   <div className='rounded-full bg-foreground text-background w-fit h-fit font-semibold px-4 py-2 md:px-6 md:py-3 text-sm md:text-base text-nowrap mt-10 md:mt-0'>
-                    Contact Me
+                    Connect
                   </div>
                 </FadeIn>
                 <div className='flex gap-2 items-center flex-wrap'>
@@ -110,7 +110,7 @@ export default function Home() {
                   </FadeIn>
                   <FadeIn duration={2}>
                     <Link
-                      href='https://app.unit.network/user/michael'
+                      href='https://app.unit.network/register/michael'
                       target='_blank'
                       className='rounded-full bg-background h-9 w-9 md:h-12 md:w-12 flex items-center justify-center hover:bg-gray-100 transition'
                     >
@@ -196,7 +196,7 @@ export default function Home() {
             <Image src='/threads.svg' alt='Threads' width={28} height={28} className='hidden md:block' />
           </Link>
           <Link
-            href='https://app.unit.network/user/michael'
+            href='https://app.unit.network/register/michael'
             target='_blank'
             className='h-7 w-7 md:h-12 md:w-12 flex items-center justify-center brightness-[3.7]'
           >
