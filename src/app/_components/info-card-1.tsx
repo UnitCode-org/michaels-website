@@ -16,7 +16,7 @@ function InfoCard1({ inter }: { inter: NextFont }) {
         <h3 className='font-semibold text-2xl xl:text-3xl text-background'>
           <TextFadeInBottom y={100} staggerChildren={0.1} text='Solving Wealth Inequity' onScroll />
         </h3>
-        <p className={inter.className + ' text-xs xl:text-sm mt-4 lg:mt-6 text-background'}>
+        <p className={inter.className + ' text-xs xl:text-sm mt-4 xl:mt-6 text-background'}>
           <TextFadeInBottom
             y={30}
             text='His mission is to solve wealth inequity, by providing a more cooperative economy. He is focused on social

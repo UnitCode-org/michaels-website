@@ -11,7 +11,7 @@ function InfoCard2({ inter }: { inter: NextFont }) {
         <h3 className='font-semibold text-2xl xl:text-3xl'>
           <TextFadeInBottom y={100} staggerChildren={0.1} text='Building Useful & Successful Businesses' onScroll />
         </h3>
-        <p className={inter.className + ' text-xs xl:text-sm mt-4 lg:mt-6'}>
+        <p className={inter.className + ' text-xs xl:text-sm mt-4 xl:mt-6'}>
           <TextFadeInBottom
             y={30}
             text='Michael has been in the crypto and blockchain industry since 2010 and has built several successful businesses
