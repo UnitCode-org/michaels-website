@@ -25,6 +25,7 @@ export default function Home() {
               <p className={'mt-3 text-xs md:text-lg ' + inter.className}>
                 <TextFadeInBottom
                   staggerChildren={0}
+                  y={30}
                   delay={1}
                   text='the leading token builder focused on powering the token economy using the Unit Network blockchain.'
                 />
@@ -131,9 +132,9 @@ export default function Home() {
             <div className='md:col-span-2 relative rounded-3xl overflow-clip h-[24rem] md:h-[28rem]'>
               <Image src='/michael.webp' alt='Michael Healy' fill className='object-cover' priority />
             </div>
-            <InfoCard1 inter={inter} />
+            <InfoCard2 inter={inter} />
           </div>
-          <InfoCard2 inter={inter} />
+          <InfoCard1 inter={inter} />
         </div>
       </main>
       <footer className='flex justify-between md:items-center px-0 md:px-16 mt-14 md:mt-24'>
