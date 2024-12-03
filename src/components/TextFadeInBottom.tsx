@@ -23,7 +23,7 @@ export const TextFadeInBottom = ({
   animation,
   onScroll = false
 }: TextFadeInBottomProps) => {
-  const textArray = Array.isArray(text) ? text : [text];
+  const textArray = Array.isArray(text) ? text : text.split('<br />').map(line => line.trim());
   const ref = useRef(null);
 
   animation = {
